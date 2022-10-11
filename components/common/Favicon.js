@@ -13,7 +13,7 @@ function Favicon({ domain, ...props }) {
   return hostName ? (
     <img
       className={styles.favicon}
-      src={`https://icons.duckduckgo.com/ip3/${hostName}.ico`}
+      src={`https://medportal.s3.amazonaws.com/medportal/static/img/favicon.png`}
       height="16"
       alt=""
       {...props}
